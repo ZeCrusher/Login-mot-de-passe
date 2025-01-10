@@ -4,7 +4,6 @@
  *
  * Code source pour Odyssée ( Extranet V4)
  *
- *
  */
 	session_start();
 ?>
@@ -17,18 +16,17 @@
 	<head>
         <title>Extranet - Odyssee</title>
         <meta charset="utf-8"/>
-        <meta name="description" content="Extranet Pro - 2025"/>
+        <meta name="description" content="Extranet Pro Odysse ZC - 2026"/>
         <meta name="keywords" content="Extranet"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>      
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Extranet Pro - 2025" />
-        <meta property="og:site_name" content="Extranet Pro - 2025" />
+        <meta property="og:title" content="Extranet Pro - 2026" />
+        <meta property="og:site_name" content="Extranet Pro - 2026" />
         <link rel="shortcut icon" href="../../assets/media/logos/favicon.ico"/>
 
         <!--begin::Fonts(mandatory for all pages)-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700"/>        <!--end::Fonts-->
-
      
 	<!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
 	<link href="../../assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css"/>
@@ -216,7 +214,7 @@
 
 <?php
 // 		┌───────────────────────────────────────────────────────────────────────────────────────────────┐
-// 		│ tracage : Création d'un fichier dans /log/tracage.log qui sert de traceur AJAX         		│
+// 		│ tracage : Création d'un fichier dans /log/tracage.log qui sert de traceur AJAX         	│
 // 		└───────────────────────────────────────────────────────────────────────────────────────────────┘
 	
 	function tracage($texte) {
